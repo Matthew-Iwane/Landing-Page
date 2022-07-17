@@ -6,7 +6,7 @@
 /* First Section */
 .background {
     background: linear-gradient(rgba(58, 58, 58, 0.65),rgba(58, 58, 58, 0.65)),
-    url(images/another-black-guy.jpeg);
+    url(images/cover-page.jpeg);
     background-size: cover;
     width: 100vw;
     height: 120vh;
@@ -67,7 +67,7 @@
 
 #card-1 {
     background: linear-gradient(rgba(58, 58, 58, 0.6),rgba(58, 58, 58, 0.6)),
-    url(images/image1.webp);
+    url(images/first-card.webp);
     background-position: center;
     background-size: cover;
     border-radius: 6px;
@@ -181,7 +181,7 @@
 /* Fourth Section */
 .background-bottom {
     background: linear-gradient(rgba(58, 58, 58, 0.65),rgba(58, 58, 58, 0.65)),
-    url(images/wheelchair-guy.webp);
+    url(images/ending-page.webp);
     background-size: cover;
     width: 100vw;
     height: 120vh;
