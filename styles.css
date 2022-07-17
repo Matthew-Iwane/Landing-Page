@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* First Section */
+.background {
+    background: linear-gradient(rgba(58, 58, 58, 0.65),rgba(58, 58, 58, 0.65)),
+    url(images/another-black-guy.jpeg);
+    background-size: cover;
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.background p {
+    color: rgb(238, 238, 238);
+    font-size: 80px;
+    font-weight: 150;
+    
+}
+
+.background a {
+    padding: 14px 50px;
+    font-size: 18px;
+    background-color: rgb(92, 191, 209);
+    border: none;
+    color: black;
+    font-weight: 150;
+    border-radius: 6px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.background a:hover {
+    background-color: rgb(64, 130, 142);;
+    color: black;
+}
+
+/* Section Section */
+
+#value-proposition {
+    background-color: rgb(242, 241, 241);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+#value-proposition h1 {
+    border-top: .6px solid black;
+    border-bottom: .6px solid black;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    font-weight: 150;
+    margin: 30px;
+    padding: 20px;
+    transform: translateY(-15%);
+}
+
+
+#card-1 {
+    background: linear-gradient(rgba(58, 58, 58, 0.6),rgba(58, 58, 58, 0.6)),
+    url(images/image1.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    height: 600px;
+}
+
+#card-2 {
+    background: linear-gradient(rgba(58, 58, 58, 0.6),rgba(58, 58, 58, 0.6)),
+    url(images/middle-card.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    height: 600px;
+}
+
+#card-3 {
+    background: linear-gradient(rgba(58, 58, 58, 0.6),rgba(58, 58, 58, 0.6)),
+    url(images/end-card.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    height: 600px;
+
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* Third Section */
+#client-header {
+    border-top: .6px solid white;
+    border-bottom: .6px solid white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    font-weight: 150;
+    margin: 30px;
+    padding: 30px;
+    color: white;
+}
+
+#clients {
+    background-color: rgb(48, 48, 48);
+    height: auto;
+    padding: 60px;
+}
+
+.card-title {
+    color:rgb(92, 191, 209);
+    font-size: 30px;
+}
+
+.card-subtitle {
+    color: rgb(169, 190, 194);
+    font-size: 24px;
+    font-weight: 150;
+}
+
+.card-text {
+    color: white;
+    font-size: 16px;
+}
+
+.card-img {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#client-card-1 {
+    background: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 25em;
+    height: 40em;
+    border: 2px solid rgba(255, 255, 255, 0.219);
+}
+
+#client-card-2 {
+    background: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 25em;
+    height: 40em;
+    border: 2px solid rgba(255, 255, 255, 0.219);
+}
+
+#client-card-3 {
+    background: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 25em;
+    height: 40em;
+    border: 2px solid rgba(255, 255, 255, 0.219);
+}
+
+.card-img {
+    transform: translateX(75%);
+}
+/* Fourth Section */
+.background-bottom {
+    background: linear-gradient(rgba(58, 58, 58, 0.65),rgba(58, 58, 58, 0.65)),
+    url(images/wheelchair-guy.webp);
+    background-size: cover;
+    width: 100vw;
+    height: 120vh;
+    padding-bottom: 20px;
+}
+
+.info-bottom {
+    width: 50vw;
+    height: 100vh;
+    transform: translateX(80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#title-bottom {
+    color: white;
+    font-weight: 150;
+    font-size: 50px;
+}
+
+#subtitle-bottom {
+    color: rgb(196, 196, 196);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.background-bottom a {
+    padding: 14px 50px;
+    font-size: 18px;
+    background-color: rgb(92, 191, 209);
+    border: none;
+    color: black;
+    font-weight: 150;
+    border-radius: 6px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.background-bottom a:hover {
+    background-color: rgb(64, 130, 142);;
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(48, 48, 48);
+    height: auto;
+    width: 100vw;
+    padding: 50px;
+    color: white;
+    font-size: 14px;
+
+}
+
+#info-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.card-title-bottom {
+    font-size: 16px;
+    border-bottom: 1px solid white;
+}
